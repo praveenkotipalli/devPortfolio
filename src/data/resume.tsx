@@ -65,7 +65,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "#",
+        url: "https://www.linkedin.com/in/praveenkumarkotipalli/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -145,7 +145,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "#",
+          href: "https://praveen5-dev-ed.develop.my.site.com/myportfolio/s/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
