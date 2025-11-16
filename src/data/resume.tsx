@@ -80,7 +80,17 @@ export const DATA = {
     },
   },
 
-  work: [],
+  work: [] as Array<{
+    company: string;
+    href: string;
+    badges: string[];
+    location: string;
+    title: string;
+    logoUrl: string;
+    start: string;
+    end: string | null;
+    description: string;
+  }>,
   education: [
     {
       school: "KL University",
